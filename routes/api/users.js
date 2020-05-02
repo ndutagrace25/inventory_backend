@@ -105,7 +105,7 @@ router.post('/login', (req, res) => {
                 .then(isMatch => {
                     if (isMatch) {
                         if (user.resetPassword === 1) {
-                            res.json({
+                            res.status(401).json({
                                 message: "Reset your password to proceed"
                             })
                         } else {
@@ -186,8 +186,8 @@ router.post('/resetPassword', (req, res) => {
                 })
 
             } else {
-                res.json({
-                    message: "As perssion to from the admin to reset password"
+                res.status(401).json({
+                    message: "Ask perssion from the admin to reset password"
                 })
             }
         })
