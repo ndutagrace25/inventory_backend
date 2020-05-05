@@ -25,6 +25,7 @@ app.use(bodyParser.urlencoded({
 app.use(bodyParser.json())
 
 const users = require('./routes/api/users');
+const suppliers = require('./routes/api/suppliers');
 
 // passport middleware
 app.use(passport.initialize());
@@ -33,6 +34,8 @@ app.use(passport.initialize());
 require('./config/passport.js')(passport);
 // use routes
 app.use('/api/users', users);
+app.use('/api/suppliers', suppliers);
+
 
 const port = process.env.PORT || 5000;
 
