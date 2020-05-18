@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "be58a2153c9d6a",
-    "password": "07c7a989",
-    "database": "myinventoryapp",
-    "host": "127.0.0.1",
+    "username": "bdee1943fb3925",
+    "password": "eb624c70",
+    "database": "heroku_4b85b2f8b05d41b",
+    "host": "us-cdbr-iron-east-05.cleardb.net",
     "dialect": "mysql",
     "operatorsAliases": false
   },
@@ -11,15 +11,15 @@
     "username": "root",
     "password": null,
     "database": "database_test",
-    "host": "127.0.0.1",
+    "host": "us-cdbr-iron-east-05.cleardb.net",
     "dialect": "mysql",
     "operatorsAliases": false
   },
   "production": {
-    "username": "be58a2153c9d6a",
-    "password": "07c7a989",
-    "database": "myinventoryapp",
-    "host": "127.0.0.1",
+    "username": "bdee1943fb3925",
+    "password": "eb624c70",
+    "database": "heroku_4b85b2f8b05d41b",
+    "host": "us-cdbr-iron-east-05.cleardb.net",
     "dialect": "mysql",
     "operatorsAliases": false
   }
