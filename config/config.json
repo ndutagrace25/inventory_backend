@@ -1,8 +1,8 @@
 {
   "development": {
-    "username": "root",
-    "password": null,
-    "database": "inventory_system",
+    "username": "be58a2153c9d6a",
+    "password": "07c7a989",
+    "database": "myinventoryapp",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
@@ -16,9 +16,9 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
+    "username": "be58a2153c9d6a",
+    "password": "07c7a989",
+    "database": "myinventoryapp",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
